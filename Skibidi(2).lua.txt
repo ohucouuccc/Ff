@@ -72,16 +72,6 @@ local Tabs = {
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
+https://hostserver.porry.store/bloxfruit/bot/JobId/fullmoon(Settings)
   end
 })
-
-Tabs.Main4:AddButton({
-local JobId, TS
-local function scrapeAPI()
-    local success, response = pcall(function()
-            return request({
-            Url = "https://hostserver.porry.store/bloxfruit/bot/JobId/fullmoon",
-            Method = "GET"
-        })
-    end)
